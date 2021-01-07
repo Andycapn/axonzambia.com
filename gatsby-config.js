@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Axon Zambia`,
+    description: `Axon Zambia is Web Services Company Providing Online Services Such As Web Development, Graphic Design, Search Engine Optimisation(SEO), and More.`,
+    author: `Andrew Ndhlovu`,
   },
   plugins: [
+    `gatsby-plugin-emotion`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
